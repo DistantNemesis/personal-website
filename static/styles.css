@@ -16,6 +16,7 @@ body {
     border-radius: 10px;
 }
 
+
 .header-buttons {
     text-align: center;
     width: 480px;
@@ -37,6 +38,9 @@ body {
     text-align: center;
 }
 
+.inline-text{
+    text-align: left;
+}
 .pictures{
     display: flex;
     gap: 20px;
