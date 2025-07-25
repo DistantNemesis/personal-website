@@ -5,9 +5,27 @@ body {
     background-repeat: repeat;
     background-color: black;
     font-family: "arial";
-    font-size: 16px;
+    font-size: 20px;
 }
 
+a{
+    color:inherit;
+}
+a:hover{       
+    color: aquamarine;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+}
+
+.footer {
+    width: 1000px;
+    margin: 0 auto;
+}
 .main-header {
     text-align: center;
     width: 500px;
@@ -24,6 +42,9 @@ body {
     border: 3px solid aquamarine;
     border-radius: 10px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 .header-button{
     background-color: aquamarine;
@@ -35,11 +56,17 @@ body {
 } 
 
 .main-text{
+    font-size: 20px;
     text-align: center;
 }
 
 .inline-text{
+    font-size: 20px;
     text-align: left;
+}
+
+.contact-list{
+    font-size: 20px;
 }
 .pictures{
     display: flex;
