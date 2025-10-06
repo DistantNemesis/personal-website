@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/static/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
     <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
 
     <title> Giuseppe's Website </title>
@@ -15,11 +21,11 @@
 <body>
     <header>
         <h1 class="main-header"> Giuseppe's Website </h1>
-
         <div class ="header-buttons">
             <button id="home" class="header-button"> Home </button>
             <button id="cats" class="header-button"> Cats </button>
             <button id="interests" class="header-button"> Interests</button>
+            <button id="projects" class ="header-button"> Projects </button>
         </div>
     </header>
 
@@ -30,22 +36,21 @@
             <h2 style="text-align: center;">My Cats</h2>
             <p class="main-text"> Here are some pictures of my two cats, Norman and Pete. </p>
             <div class="pictures">
-                <figure>
-                    <img src="/static/images/norman.jpg" style="width: 200px; height: auto;" alt="Norman">
+                <figure class="picture-item">
+                    <img src="/static/images/norman.jpg" style="width: 200px; height: auto; padding-bottom: 10px;" alt="Norman">
                     <figcaption> Norman </figcaption>
                 </figure>
-                <figure>
-                    <img src ="/static/images/pete.jpg" style="width: 200px; height: auto;" alt="Pete">
+                <figure class="picture-item">
+                    <img src ="/static/images/pete.jpg" style="width: 200px; height: auto; padding-bottom: 10px;" alt="Pete">
                     <figcaption> Pete </figcaption>
                 </figure>
-                <figure>
-                    <img src ="/static/images/normanandpete.jpg" style="width: 200px; height: auto;" alt="Norman and Pete">
+                <figure class="picture-item">
+                    <img src ="/static/images/normanandpete.jpg" style="width: 200px; height: auto; padding-bottom: 10px;" alt="Norman and Pete">
                     <figcaption> Norman and Pete </figcaption>
                 </figure>
             </div>
         </div>
     </main>
-
     <footer>
         <div class="footer">
             <ul>

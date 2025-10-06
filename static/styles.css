@@ -4,12 +4,18 @@ body {
     background-image: url("../static/images/stars.gif");
     background-repeat: repeat;
     background-color: black;
-    font-family: "arial";
-    font-size: 20px;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 0.8em;
 }
 
 a{
     color:inherit;
+}
+
+button {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 0.7em;
 }
 a:hover{       
     color: aquamarine;
@@ -19,16 +25,16 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 30px;
+    padding: 5px;
 }
 
 .footer {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .main-header {
     text-align: center;
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     border: 3px solid aquamarine;
     border-radius: 10px;
@@ -39,7 +45,7 @@ footer {
 .header-buttons {
     font-family: "arial";
     text-align: center;
-    width: 500px;
+    max-width: 500px;
     margin: 10px auto;
     border: 3px solid aquamarine;
     border-radius: 10px;
@@ -50,11 +56,10 @@ footer {
 }
 .header-button{
     background-color: aquamarine;
-    width: 70px;
 }
 
 .main-body{
-    width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -62,22 +67,19 @@ footer {
 } 
 
 .main-text{
-    font-size: 20px;
     text-align: center;
 }
 
 .inline-text{
-    font-size: 20px;
     text-align: left;
 }
 
-.contact-list{
-    font-size: 20px;
-}
+
+
 .pictures{
     display: flex;
-    gap: 20px;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
     flex-wrap: wrap;
 }
 
@@ -88,4 +90,11 @@ footer {
     word-wrap: break-word;
     border: 3px solid aquamarine;
     border-radius: 10px;
+}
+
+/* Interests Page */
+
+.picture-item {
+    flex: 1;
+    text-align: center;
 }
